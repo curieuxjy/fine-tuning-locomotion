@@ -15,6 +15,10 @@ Project page: https://sites.google.com/berkeley.edu/fine-tuning-locomotion
 
 -   Install MPC extension (Optional) `python3 setup.py install --user`
 
+Create virtual environment in python version **3.7**(It allows installing tensorflow `1.15.4`):
+
+`conda create -n [venv] python=3.7`
+
 Install dependencies:
 
 -   Install MPI: `sudo apt install libopenmpi-dev`
